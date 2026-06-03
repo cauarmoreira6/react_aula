@@ -31,6 +31,7 @@ function UltimosLancamentos(){
         { livros.map( livro => (
             <img src={livro.src}/>
         ))}
+        
         </NovosLivrosContainer>
         <CarRecomenda
             titulo="Talvez você se interesse por..."
